@@ -1,0 +1,15 @@
+import turtle
+t=turtle.Turtle()
+t.speed(0)
+t.color("yellow","cyan")
+turtle.bgcolor("red")
+t.begin_fill()
+for i in range(70):
+    t.fd(200)
+    t.circle(30)
+    t.fd(200)
+    t.right(10)
+    t.circle(100)
+    t.left(179)
+t.end_fill()
+turtle.done()
